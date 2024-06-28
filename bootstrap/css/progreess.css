@@ -1,0 +1,8 @@
+#progressbox{
+    height: 200px;
+    margin: 100px;
+    background-color: rgb(255, 154, 255);
+}
+.progress{
+    margin-top: 20px;
+}
