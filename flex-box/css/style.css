@@ -1,0 +1,35 @@
+#header{
+    background-color: blueviolet;
+    height: 50px;
+
+}
+
+#contenedor{
+    background-color: aqua;
+    height: 500px;
+
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;/*alinea de arriba a abajo*/
+    justify-content: center;/*alinea de left to right*/
+
+    /* justify-content: around; espacio doble de la margen*/
+    /* justify-content: beetwn; nada a la margen*/
+    /* justify-content: eveling; todos iguales*/
+
+}
+
+.cajas{
+    height: 200px;
+    width: 15%;
+    margin: 2px;
+    background-color: red;
+   
+}
+
+#uno{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
